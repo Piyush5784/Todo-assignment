@@ -20,3 +20,8 @@ export const Title = atom({
   key: 'title_todo',
   default: '',
 });
+
+export const edit_id = atom({
+  key: 'edit_id',
+  default: 0,
+});
